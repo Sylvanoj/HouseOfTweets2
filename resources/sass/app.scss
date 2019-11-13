@@ -1,0 +1,40 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.content{
+    .row{
+        #homepagerightside{
+            background-color:#1da1f2;
+            height: 100vh;
+            width:50%;
+        }
+        #logincontainer{
+            width:50%;
+            height:100vh;
+            .card-body{
+                width:50%;
+                // height:100vh;
+                margin-left:25%;
+            }
+            .form-inline{
+                margin-left:10px;
+
+            }
+        }
+    }
+}
+
+.col-sm{
+    border: solid grey 1px;
+
+}
+
+.list-group{
+    background-color:#d9d9d9;
+}
